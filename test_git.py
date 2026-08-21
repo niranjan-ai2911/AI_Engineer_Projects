@@ -4,3 +4,4 @@ print("my first commit")
 
 print("my second commit")  
 print("I am going to master AI in 2026s") 
+print("I am going to master AIs")
