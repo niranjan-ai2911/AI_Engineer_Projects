@@ -1,19 +1,20 @@
-# AI Engineer Learning Portfolio
+# AI Projects Learning Repo
 
-This repository contains small, recruiter-friendly AI/ML proof-of-concept projects designed for an AI engineer interview portfolio.
+This repository contains a few small AI and GenAI experiments I built while learning and exploring practical workflows in LLMs, LangGraph, and retrieval-based systems.
 
 ## Included projects
 
 1. LangGraph workflow demo
-   - A minimal agent-style workflow using LangGraph state transitions
-   - Great for showing graph-based orchestration fundamentals
+   - A basic multi-step workflow using LangGraph state transitions
+   - Helps understand how tasks can be orchestrated in a structured way
 
 2. Mini RAG search demo
-   - Uses TF-IDF and cosine similarity to retrieve the best match from a knowledge base
-   - Demonstrates retrieval logic used in RAG systems
+   - Uses TF-IDF and cosine similarity to find the most relevant document from a knowledge base
+   - Demonstrates the core idea behind retrieval-augmented generation
 
 3. Prompt chaining exercise
-   - Shows how a simple AI pipeline can classify an input, generate a structured answer, and format the final response
+   - A simple pipeline that classifies input intent, generates a response, and formats the output
+   - Useful for learning prompt-based task decomposition
 
 ## Project structure
 
@@ -21,16 +22,14 @@ This repository contains small, recruiter-friendly AI/ML proof-of-concept projec
 .
 ├── app.py                              # LangGraph basic workflow
 ├── projects/
-│   ├── 01_langgraph_basic/
-│   │   └── app.py
 │   ├── 02_rag_mini/
 │   │   └── app.py
 │   └── 03_prompt_pipeline/
 │       └── app.py
 ├── README.md
 ├── requirements.txt
-├── INTERVIEW_NOTES.md
-└── .gitignore
+├── .gitignore
+└── INTERVIEW_NOTES.md
 ```
 
 ## Setup
@@ -50,13 +49,7 @@ python projects/02_rag_mini/app.py
 python projects/03_prompt_pipeline/app.py
 ```
 
-## Why this helps for interviews
+## Notes
 
-These examples show practical understanding of:
-- workflow orchestration
-- prompt design and chaining
-- retrieval and similarity matching
-- structured problem-solving for GenAI applications
-
-They are intentionally simple, readable, and easy to explain in an interview.
+These are learning-focused experiments and small proof-of-concept projects created to practice core AI concepts, workflow design, and practical implementation patterns.
 
